@@ -1,0 +1,88 @@
+<?xml version = "1.0" encoding = "ISO-8859-1"?>
+<aiml version="2" encoding="ISO-8859-1">    
+    <!-- menu.aiml-->
+    <category>
+        <pattern>* MENU *</pattern>
+            <template> Untuk menu lengkap bisa dilihat diatas ya
+        </template>
+    </category>
+    <category>
+        <pattern> * MURAH </pattern>
+        <template> 
+            <random>
+                <li>Semua menu disini murah, ada Nasi Telur Dadar dengan harga Rp.7000, Nasi Goreng dengan harga Rp. 10000, Indomie dengan harga Rp. 6000 dan masih banyak lagi </li>
+                <li>Menu paling murah disini adalah indomie dengan harga Rp.6000</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern> * MAKANAN </pattern>
+        <template> 
+            <random>
+                <li>Disini ada banyak menu makanan, ada Nasi Telur Dadar dengan harga Rp.7000, Nasi Goreng dengan harga Rp. 10000, Indomie dengan harga Rp. 6000, Nasi Ayam Kremes dengan harga Rp. 14000, dan masih banyak lagi </li>                
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern> MAKANAN </pattern>
+        <template> 
+            <random>
+                <li>Disini ada banyak menu makanan, ada Nasi Telur Dadar dengan harga Rp.7000, Nasi Goreng dengan harga Rp. 10000, Indomie dengan harga Rp. 6000, Nasi Ayam Kremes dengan harga Rp. 14000, dan masih banyak lagi </li>                
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern> * MAKANAN *</pattern>
+        <template> 
+            <random>
+                <li>Disini ada banyak menu makanan, ada Nasi Telur Dadar dengan harga Rp.7000, Nasi Goreng dengan harga Rp. 10000, Indomie dengan harga Rp. 6000, Nasi Ayam Kremes dengan harga Rp. 14000, dan masih banyak lagi </li>                
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern> * MINUMAN </pattern>
+        <template> 
+            <random>
+                <li>Untuk minuman, kami punya Es teh harganya Rp.3000, Es Jeruk harganya Rp. 3000 juga, macam-macam kopi dengan harga kisaran Rp. 3000 - 4000, dan masih banyak lagi. Selengkapnya bisa dilihat di menu diatas</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern> MINUMAN </pattern>
+        <template> 
+            <random>
+                <li>Untuk minuman, kami punya Es teh harganya Rp.3000, Es Jeruk harganya Rp. 3000 juga, macam-macam kopi dengan harga kisaran Rp. 3000 - 4000, dan masih banyak lagi. Selengkapnya bisa dilihat di menu diatas</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern> * NASI GORENG </pattern>
+        <template> 
+            Harga nasi goreng adalah Rp. 10000
+        </template>
+    </category>
+    <category>
+        <pattern> NASI GORENG </pattern>
+        <template> 
+            Nasi goreng harganya Rp. 10000
+        </template>
+    </category>
+    <category>
+        <pattern> * NASI GORENG *</pattern>
+        <template> 
+            Harga nasi goreng Rp. 10000 kak
+        </template>
+    </category>
+    <category>
+        <pattern> * ES TEH *</pattern>
+        <template> 
+            Es teh harganya 3000
+        </template>
+    </category>
+    <category>
+        <pattern> * ES TEH</pattern>
+        <template> 
+            Harga es teh adalah 3000
+        </template>
+    </category>
+</aiml>
