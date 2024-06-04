@@ -1,11 +1,12 @@
 import aiml
 from tabulate import tabulate
+import re
 
 
 # membuat kernel dan mempelajari berkas AIML
 kernel = aiml.Kernel()
 kernel.learn("resto.xml")
-kernel.respond("resto")
+kernel.respond("RESTO")
 
 # menu = [
 #     {"item": "Nasi Ayam Kremes", "price": 14000},
@@ -57,7 +58,9 @@ data = {
     "Teh Tawar": 1000,
     "Kopi Hitam": 3000
 }
-    #define header names
+kunci = "esan" # Kunci pertama
+harga = r'\d+' # Kunci kedua
+total = 0
 
     #display table
 table = [[key, value] for key, value in data.items()]
@@ -66,7 +69,14 @@ print(tabulate(table, headers=["Menu", "Harga"], tablefmt="grid"))
 while True:
     user_input = kernel.respond(input("USER > "))
     if user_input:
-        # print("Coba dulu")
+        cariKunci = re.search(kunci, user_input)
+        cariHarga = re.findall(harga, user_input)
+        if cariKunci and cariHarga: # cek apakah kedua kunci ada
+            print(type(cariHarga[0])) # testing
+            total += int(cariHarga[0]) 
+            print("Untuk sekarang total harga adalah:") # testing
+            print(total) # testing
+            
         print("Bot > ", user_input)
     else:
         print("Bot > Maaf Ka, saya kurang mengerti. Bisakah diulangi lagi?" )
