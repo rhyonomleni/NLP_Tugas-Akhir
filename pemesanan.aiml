@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version = "1.0" encoding = "ISO-8859-1"?>
 <aiml version="2" encoding="ISO-8859-1">    
     <!-- menu.aiml-->
@@ -487,4 +488,80 @@
             You're welcome
         </template>
     </category>
+=======
+<?xml version = "1.0" encoding = "ISO-8859-1"?>
+<aiml version="2" encoding="ISO-8859-1">
+    <!-- pemesanan.aiml -->
+
+    <category>
+        <pattern>PESAN TEH MANIS</pattern>
+        <template>
+            Baik, kakak memesan Teh Manis dengan harga Rp3000
+        </template>
+    </category>
+
+    <category>
+        <pattern>PESAN TEH TAWAR</pattern>
+        <template>
+            Baik, kakak memesan Teh Tawar dengan harga Rp1000
+        </template>
+    </category>
+
+    <category>
+        <pattern>PESAN JERUK</pattern>
+        <template>
+            Baik, kakak memesan Jeruk dengan harga Rp3000
+        </template>
+    </category>
+
+    <category>
+        <pattern>PESAN MILO</pattern>
+        <template>
+            Baik, kakak memesan Milo dengan harga Rp4000
+        </template>
+    </category>
+
+    <category>
+        <pattern>PESAN HILO</pattern>
+        <template>
+            Baik, kakak memesan Hilo dengan harga Rp4000
+        </template>
+    </category>
+
+    <category>
+        <pattern>PESAN NUTRISARI</pattern>
+        <template>
+            Baik, kakak memesan Nutrisari dengan harga Rp4000
+        </template>
+    </category>
+
+    <category>
+        <pattern>PESAN COFFEEMIX</pattern>
+        <template>
+            Baik, kakak memesan Coffeemix dengan harga Rp4000
+        </template>
+    </category>
+
+    <category>
+        <pattern>PESAN GOODDAY</pattern>
+        <template>
+            Baik, kakak memesan Goodday dengan harga Rp4000
+        </template>
+    </category>
+
+    <category>
+        <pattern>PESAN KOPI HITAM</pattern>
+        <template>
+            Baik, kakak memesan Kopi Hitam dengan harga Rp3000
+        </template>
+    </category>
+
+    <category>
+        <pattern>PESAN AIR ES</pattern>
+        <template>
+            Baik, kakak memesan Air Es dengan harga Rp1000
+        </template>
+    </category>
+
+>>>>>>> 6b32261f432d17ce28361a987a41a08605a2c210
 </aiml>
