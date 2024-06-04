@@ -79,7 +79,6 @@
             Es teh harganya 3000
         </template>
     </category> -->
-<<<<<<< HEAD
     <category>
         <pattern>ADA *</pattern>
         <!-- <template>Baik <star/>, minumnya apa kak?</template> -->
@@ -141,84 +140,15 @@
     </category>
     <category>
         <pattern>APAKAH ADA *</pattern>
-=======
-    <category>
-        <pattern>BERAPA HARGA *</pattern>
->>>>>>> 6b32261f432d17ce28361a987a41a08605a2c210
         <!-- <template>Baik <star/>, minumnya apa kak?</template> -->
         <template> 
             <think> 
                 <set name="pesan"><star /></set> 
             </think> 
             <condition name="pesan"> 
-<<<<<<< HEAD
                 <li value="nasi ayam kuah kecap">Nasi ayam kuah kecap harganya Rp14000 
                 </li> 
                 <li value="nasi telur kuah kecap">Nasi Telur Kuah Kecap harganya Rp9000 
-=======
-                <li value="nasi ayam kremes"><star/> harganya Rp14000 
-                </li> 
-                <li value="nasi ayam kuah kecap"><star/> harganya Rp14000 
-                </li> 
-                <li value="nasi telur kuah kecap"><star/> harganya Rp9000
->>>>>>> 6b32261f432d17ce28361a987a41a08605a2c210
-                </li> 
-                <li value="nasi telur dadar"><star/> harganya Rp7000
-                </li> 
-                <li value="nasi koloke"><star/> harganya Rp12000
-                </li> 
-                <li value="nasi fuyunghai"><star/> harganya Rp12000
-                </li> 
-                <li value="nasi telur tempe terong"><star/> harganya Rp10000
-                </li> 
-                <li value="nasi tahu terong"><star/> harganya Rp8000
-                </li> 
-                <li value="nasi tahu tempe terong"><star/> harganya Rp9000
-                </li> 
-                <li value="nasi tempe terong"><star/> harganya Rp8000
-                </li> 
-                <li value="nasi telur terong"><star/> harganya Rp9000
-                </li> 
-                <li value="nasi orak-arik"><star/> harganya Rp8000
-                </li> 
-                <li value="nasi gila"><star/> harganya Rp13000
-                </li> 
-                <li value="nasi goreng gila"><star/> harganya Rp14000
-                </li> 
-                <li value="nasi goreng"><star/> harganya Rp10000
-                </li> 
-                <li value="bakmi goreng"><star/> harganya Rp10000
-                </li> 
-                <li value="bakmi kuah"><star/> harganya Rp10000
-                </li> 
-                <li value="bihun goreng"><star/> harganya Rp10000
-                </li> 
-                <li value="bihun kuah"><star/> harganya Rp10000
-                </li> 
-                <li value="cap cai"><star/> harganya Rp10000
-                </li> 
-                <li value="nasi godok"><star/> harganya Rp10000
-                </li> 
-                <li value="mie dok-dok"><star/> harganya Rp10000
-                </li> 
-                <li value="indomie"><star/> harganya Rp6000
-                </li> 
-                <li value="indomie telur"><star/> harganya Rp9000
-                </li> 
-            </condition>
-        </template>
-    </category>
-    <category>
-        <pattern>HARGA *</pattern>
-        <!-- <template>Baik <star/>, minumnya apa kak?</template> -->
-        <template> 
-            <think> 
-                <set name="pesan"><star /></set> 
-            </think> 
-            <condition name="pesan"> 
-                <li value="nasi ayam kuah kecap">Nasi ayam kuah kecap harganya Rp14000 <star/>
-                </li> 
-                <li value="nasi telur kuah kecap">Nasi Telur Kuah Kecap harganya Rp9000 <star/>
                 </li> 
                 <li value="nasi telur dadar"><star/> harganya Rp7000
                 </li> 
