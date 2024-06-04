@@ -1,11 +1,11 @@
 <?xml version = "1.0" encoding = "ISO-8859-1"?>
 <aiml version="2" encoding="ISO-8859-1">    
     <!-- menu.aiml-->
-    <category>
+    <!-- <category>
         <pattern>* MENU *</pattern>
             <template> Untuk menu lengkap bisa dilihat diatas ya
         </template>
-    </category>
+    </category> -->
     <category>
         <pattern> * MURAH </pattern>
         <template> 
@@ -39,15 +39,15 @@
             </random>
         </template>
     </category>
-    <category>
+    <!-- <category>
         <pattern> * MINUMAN </pattern>
         <template> 
             <random>
                 <li>Untuk minuman, kami punya Es teh harganya Rp.3000, Es Jeruk harganya Rp. 3000 juga, macam-macam kopi dengan harga kisaran Rp. 3000 - 4000, dan masih banyak lagi. Selengkapnya bisa dilihat di menu diatas</li>
             </random>
         </template>
-    </category>
-    <category>
+    </category> -->
+    <!-- <category>
         <pattern> MINUMAN </pattern>
         <template> 
             <random>
@@ -78,11 +78,121 @@
         <template> 
             Es teh harganya 3000
         </template>
+    </category> -->
+    <category>
+        <pattern>ADA *</pattern>
+        <!-- <template>Baik <star/>, minumnya apa kak?</template> -->
+        <template> 
+            <think> 
+                <set name="pesan"><star /></set> 
+            </think> 
+            <condition name="pesan"> 
+                <li value="nasi ayam kremes"><star/> harganya Rp14000 
+                </li> 
+                <li value="nasi ayam kuah kecap"><star/> harganya Rp14000 
+                </li> 
+                <li value="nasi telur kuah kecap"><star/> harganya Rp9000
+                </li> 
+                <li value="nasi telur dadar"><star/> harganya Rp7000
+                </li> 
+                <li value="nasi koloke"><star/> harganya Rp12000
+                </li> 
+                <li value="nasi fuyunghai"><star/> harganya Rp12000
+                </li> 
+                <li value="nasi telur tempe terong"><star/> harganya Rp10000
+                </li> 
+                <li value="nasi tahu terong"><star/> harganya Rp8000
+                </li> 
+                <li value="nasi tahu tempe terong"><star/> harganya Rp9000
+                </li> 
+                <li value="nasi tempe terong"><star/> harganya Rp8000
+                </li> 
+                <li value="nasi telur terong"><star/> harganya Rp9000
+                </li> 
+                <li value="nasi orak-arik"><star/> harganya Rp8000
+                </li> 
+                <li value="nasi gila"><star/> harganya Rp13000
+                </li> 
+                <li value="nasi goreng gila"><star/> harganya Rp14000
+                </li> 
+                <li value="nasi goreng"><star/> harganya Rp10000
+                </li> 
+                <li value="bakmi goreng"><star/> harganya Rp10000
+                </li> 
+                <li value="bakmi kuah"><star/> harganya Rp10000
+                </li> 
+                <li value="bihun goreng"><star/> harganya Rp10000
+                </li> 
+                <li value="bihun kuah"><star/> harganya Rp10000
+                </li> 
+                <li value="cap cai"><star/> harganya Rp10000
+                </li> 
+                <li value="nasi godok"><star/> harganya Rp10000
+                </li> 
+                <li value="mie dok-dok"><star/> harganya Rp10000
+                </li> 
+                <li value="indomie"><star/> harganya Rp6000
+                </li> 
+                <li value="indomie telur"><star/> harganya Rp9000
+                </li> 
+            </condition>
+        </template>
     </category>
     <category>
-        <pattern> * ES TEH</pattern>
+        <pattern>APAKAH ADA *</pattern>
+        <!-- <template>Baik <star/>, minumnya apa kak?</template> -->
         <template> 
-            Harga es teh adalah 3000
+            <think> 
+                <set name="pesan"><star /></set> 
+            </think> 
+            <condition name="pesan"> 
+                <li value="nasi ayam kuah kecap">Nasi ayam kuah kecap harganya Rp14000 
+                </li> 
+                <li value="nasi telur kuah kecap">Nasi Telur Kuah Kecap harganya Rp9000 
+                </li> 
+                <li value="nasi telur dadar"><star/> harganya Rp7000
+                </li> 
+                <li value="nasi koloke"><star/> harganya Rp12000
+                </li> 
+                <li value="nasi fuyunghai"><star/> harganya Rp12000
+                </li> 
+                <li value="nasi telur tempe terong"><star/> harganya Rp10000
+                </li> 
+                <li value="nasi tahu terong"><star/> harganya Rp8000
+                </li> 
+                <li value="nasi tahu tempe terong"><star/> harganya Rp9000
+                </li> 
+                <li value="nasi tempe terong"><star/> harganya Rp8000
+                </li> 
+                <li value="nasi telur terong"><star/> harganya Rp9000
+                </li> 
+                <li value="nasi orak-arik"><star/> harganya Rp8000
+                </li> 
+                <li value="nasi gila"><star/> harganya Rp13000
+                </li> 
+                <li value="nasi goreng gila"><star/> harganya Rp14000
+                </li> 
+                <li value="nasi goreng"><star/> harganya Rp10000
+                </li> 
+                <li value="bakmi goreng"><star/> harganya Rp10000
+                </li> 
+                <li value="bakmi kuah"><star/> harganya Rp10000
+                </li> 
+                <li value="bihun goreng"><star/> harganya Rp10000
+                </li> 
+                <li value="bihun kuah"><star/> harganya Rp10000
+                </li> 
+                <li value="cap cai"><star/> harganya Rp10000
+                </li> 
+                <li value="nasi godok"><star/> harganya Rp10000
+                </li> 
+                <li value="mie dok-dok"><star/> harganya Rp10000
+                </li> 
+                <li value="indomie"><star/> harganya Rp6000
+                </li> 
+                <li value="indomie telur"><star/> harganya Rp9000
+                </li> 
+            </condition>
         </template>
     </category>
 </aiml>

@@ -4,7 +4,7 @@
     <category>
         <pattern> NAMA SAYA *</pattern>
         <template> Salam kenal kak <set name="nama"><star/></set>.
-        Saya adalah RestoBot. </template>
+        Saya adalah WarungBot. </template>
     </category>
     <category>
         <pattern> HALO </pattern>

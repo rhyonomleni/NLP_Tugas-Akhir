@@ -1,0 +1,490 @@
+<?xml version = "1.0" encoding = "ISO-8859-1"?>
+<aiml version="2" encoding="ISO-8859-1">    
+    <!-- menu.aiml-->
+    <category>
+        <pattern> PESAN * </pattern>
+        <template> Maaf menu yang anda pesan tidak ada disini.
+        </template>
+    </category>
+    <category>
+        <pattern>* PESAN * </pattern>
+        <template> Maaf menu yang anda pesan tidak ada disini.
+        </template>
+    </category> 
+    <category>
+        <pattern> PESAN NASI AYAM KREMES </pattern>
+        <template> Baik, Kakak memesan nasi ayam kremes dengan harga Rp.14000. Ada lagi yang mau dipesan? 
+        </template>
+    </category>
+    <category>
+        <pattern> PESAN NASI TELUR KUAH KECAP </pattern>
+        <template> Baik, Kakak memesan nasi telur kuah kecap dengan harga Rp.9000. Ada lagi yang mau dipesan? 
+        </template>
+    </category>
+    <category>
+        <pattern> PESAN NASI AYAM KUAH KECAP </pattern>
+        <template> Baik, Kakak memesan nasi ayam kuah kecap dengan harga Rp.14000. Ada lagi yang mau dipesan? 
+        </template>
+    </category>
+    <category>
+        <pattern> PESAN NASI TELUR DADAR </pattern>
+        <template> Baik, Kakak memesan nasi telur dadar dengan harga Rp.7000. Ada lagi yang mau dipesan? 
+        </template>
+    </category>
+    <category>
+        <pattern> PESAN NASI KOLOKE </pattern>
+        <template> Baik, Kakak memesan nasi KOLOKE dengan harga Rp.12000. Ada lagi yang mau dipesan? 
+        </template>
+    </category>
+    <category>
+        <pattern> PESAN NASI FUYUNGHAI </pattern>
+        <template> Baik, Kakak memesan nasi fuyunghai dengan harga Rp.12000. Ada lagi yang mau dipesan? 
+        </template>
+    </category>
+    <category>
+        <pattern> * NASI TELUR TEMPE TERONG </pattern>
+        <template> Baik, Kakak memesan nasi telur tempe terong dengan harga Rp.10000. Ada lagi yang mau dipesan?
+        </template>
+    </category>
+    <category>
+        <pattern> PESAN NASI TAHU TERONG </pattern>
+        <template> Baik, Kakak memesan nasi tahu terong dengan harga Rp.8000. Ada lagi yang mau dipesan? 
+        </template>
+    </category>
+    <category>
+        <pattern> PESAN NASI TAHU TEMPE TERONG </pattern>
+        <template> Baik, Kakak memesan nasi tahu tempe terong dengan harga Rp.9000. Ada lagi yang mau dipesan?
+        </template>
+    </category>
+    <category>
+        <pattern> PESAN NASI TEMPE TERONG </pattern>
+        <template> Baik, Kakak memesan nasi tempe terong dengan harga Rp.8000. Ada lagi yang mau dipesan?
+        </template>
+    </category>
+    <category>
+        <pattern> PESAN NASI TELUR TERONG </pattern>
+        <template> Baik, Kakak memesan nasi telur terong dengan harga Rp.9000. Ada lagi yang mau dipesan?
+        </template>
+    </category>
+    <category>
+        <pattern> PESAN NASI ORAK ARIK </pattern>
+        <template> Baik, Kakak memesan nasi orak-arik dengan harga Rp.8000. Ada lagi yang mau dipesan?
+        </template>
+    </category>
+    <category>
+        <pattern> PESAN NASI GILA </pattern>
+        <template> Baik, Kakak memesan nasi gila dengan harga Rp.13000. Ada lagi yang mau dipesan?
+        </template>
+    </category>
+    <category>
+        <pattern> PESAN NASI GORENG GILA </pattern>
+        <template> Baik, Kakak memesan nasi goreng gila dengan harga Rp.14000. Ada lagi yang mau dipesan?
+        </template>
+    </category>
+    <category>
+        <pattern> PESAN NASI GORENG </pattern>
+        <template> Baik, Kakak memesan nasi goreng dengan harga Rp.10000. Ada lagi yang mau dipesan?
+        </template>
+    </category>
+    <category>
+        <pattern> PESAN BAKMI GORENG </pattern>
+        <template> Baik, Kakak memesan bakmi goreng dengan harga Rp.10000. Ada lagi yang mau dipesan?
+        </template>
+    </category>
+    <category>
+        <pattern> PESAN BAKMI KUAH </pattern>
+        <template> Baik, Kakak memesan bakmi kuah dengan harga Rp.10000. Ada lagi yang mau dipesan?
+        </template>
+    </category>
+    <category>
+        <pattern> PESAN BIHUN GORENG </pattern>
+        <template> Baik, Kakak memesan bihun goreng dengan harga Rp.10000. Ada lagi yang mau dipesan?
+        </template>
+    </category>
+    <category>
+        <pattern> PESAN BIHUN KUAH </pattern>
+        <template> Baik, Kakak memesan bihun kuah dengan harga Rp.10000. Ada lagi yang mau dipesan?
+        </template>
+    </category>
+    <category>
+        <pattern> PESAN CAP CAI </pattern>
+        <template> Baik, Kakak memesan cap cai dengan harga Rp.10000. Ada lagi yang mau dipesan?
+        </template>
+    </category>
+    <category>
+        <pattern> PESAN NASI GODOG </pattern>
+        <template> Baik, Kakak memesan nasi godog dengan harga Rp.10000. Ada lagi yang mau dipesan?
+        </template>
+    </category>
+    <category>
+        <pattern> PESAN MIE DOK-DOK </pattern>
+        <template> Baik, Kakak memesan mie dok-dok dengan harga Rp.10000. Ada lagi yang mau dipesan?
+        </template>
+    </category>
+    <category>
+        <pattern> PESAN INDOMIE </pattern>
+        <template> Baik, Kakak memesan indomie dengan harga Rp.6000. Ada lagi yang mau dipesan?
+        </template>
+    </category>
+    <category>
+        <pattern> PESAN INDOMIE TELUR </pattern>
+        <template> Baik, Kakak memesan indomie telur dengan harga Rp.10000. Ada lagi yang mau dipesan?
+        </template>
+    </category>
+
+
+    <category>
+        <pattern> * PESAN NASI AYAM KREMES </pattern>
+        <template> Baik, Kakak memesan nasi ayam kremes dengan harga Rp.14000. Ada lagi yang mau dipesan
+        </template>
+    </category>
+    <category>
+        <pattern> * PESAN NASI TELUR KUAH KECAP </pattern>
+        <template> Baik, Kakak memesan nasi telur kuah kecap dengan harga Rp.9000. Ada lagi yang mau dipesan
+        </template>
+    </category>
+    <category>
+        <pattern> * PESAN NASI AYAM KUAH KECAP </pattern>
+        <template> Baik, Kakak memesan nasi ayam kuah kecap dengan harga Rp.14000. Ada lagi yang mau dipesan
+        </template>
+    </category>
+    <category>
+        <pattern> * PESAN NASI TELUR DADAR </pattern>
+        <template> Baik, Kakak memesan nasi telur dadar dengan harga Rp.7000. Ada lagi yang mau dipesan
+        </template>
+    </category>
+    <category>
+        <pattern> * PESAN NASI KOLOKE </pattern>
+        <template> Baik, Kakak memesan nasi KOLOKE dengan harga Rp.12000. Ada lagi yang mau dipesan
+        </template>
+    </category>
+    <category>
+        <pattern> * PESAN NASI FUYUNGHAI </pattern>
+        <template> Baik, Kakak memesan nasi fuyunghai dengan harga Rp.12000. Ada lagi yang mau dipesan
+        </template>
+    </category>
+    <category>
+        <pattern> * NASI TELUR TEMPE TERONG </pattern>
+        <template> Baik, Kakak memesan nasi telur tempe terong dengan harga Rp.10000. Ada lagi yang mau dipesan?
+        </template>
+    </category>
+    <category>
+        <pattern> * PESAN NASI TAHU TERONG </pattern>
+        <template> Baik, Kakak memesan nasi tahu terong dengan harga Rp.8000. Ada lagi yang mau dipesan?
+        </template>
+    </category>
+    <category>
+        <pattern> * PESAN TAHU TEMPE TERONG </pattern>
+        <template> Baik, Kakak memesan nasi tahu tempe terong dengan harga Rp.9000. Ada lagi yang mau dipesan?
+        </template>
+    </category>
+    <category>
+        <pattern> * PESAN TEMPE TERONG </pattern>
+        <template> Baik, Kakak memesan nasi tempe terong dengan harga Rp.8000. Ada lagi yang mau dipesan?
+        </template>
+    </category>
+    <category>
+        <pattern> * PESAN TELUR TERONG </pattern>
+        <template> Baik, Kakak memesan nasi telur terong dengan harga Rp.9000. Ada lagi yang mau dipesan?
+        </template>
+    </category>
+    <category>
+        <pattern> * PESAN NASI ORAK ARIK </pattern>
+        <template> Baik, Kakak memesan nasi orak-arik dengan harga Rp.8000. Ada lagi yang mau dipesan?
+        </template>
+    </category>
+    <category>
+        <pattern> * PESAN NASI GILA </pattern>
+        <template> Baik, Kakak memesan nasi gila dengan harga Rp.13000. Ada lagi yang mau dipesan?
+        </template>
+    </category>
+    <category>
+        <pattern> * PESAN NASI GORENG GILA </pattern>
+        <template> Baik, Kakak memesan nasi goreng gila dengan harga Rp.14000. Ada lagi yang mau dipesan?
+        </template>
+    </category>
+    <category>
+        <pattern> * PESAN NASI GORENG </pattern>
+        <template> Baik, Kakak memesan nasi goreng dengan harga Rp.10000. Ada lagi yang mau dipesan?
+        </template>
+    </category>
+    <category>
+        <pattern> * PESAN BAKMI GORENG </pattern>
+        <template> Baik, Kakak memesan bakmi goreng dengan harga Rp.10000. Ada lagi yang mau dipesan?
+        </template>
+    </category>
+    <category>
+        <pattern> * PESAN BAKMI KUAH </pattern>
+        <template> Baik, Kakak memesan bakmi kuah dengan harga Rp.10000. Ada lagi yang mau dipesan?
+        </template>
+    </category>
+    <category>
+        <pattern> * PESAN BIHUN GORENG </pattern>
+        <template> Baik, Kakak memesan bihun goreng dengan harga Rp.10000. Ada lagi yang mau dipesan?
+        </template>
+    </category>
+    <category>
+        <pattern> * PESAN BIHUN KUAH </pattern>
+        <template> Baik, Kakak memesan bihun kuah dengan harga Rp.10000. Ada lagi yang mau dipesan?
+        </template>
+    </category>
+    <category>
+        <pattern> * PESAN CAP CAI </pattern>
+        <template> Baik, Kakak memesan cap cai dengan harga Rp.10000. Ada lagi yang mau dipesan?
+        </template>
+    </category>
+    <category>
+        <pattern> * PESAN NASI GODOG </pattern>
+        <template> Baik, Kakak memesan nasi godog dengan harga Rp.10000. Ada lagi yang mau dipesan?
+        </template>
+    </category>
+    <category>
+        <pattern> * PESAN MIE DOK-DOK </pattern>
+        <template> Baik, Kakak memesan mie dok-dok dengan harga Rp.10000. Ada lagi yang mau dipesan?
+        </template>
+    </category>
+    <category>
+        <pattern> * PESAN INDOMIE </pattern>
+        <template> Baik, Kakak memesan indomie dengan harga Rp.6000. Ada lagi yang mau dipesan?
+        </template>
+    </category>
+    <category>
+        <pattern> * PESAN INDOMIE TELUR </pattern>
+        <template> Baik, Kakak memesan indomie telur dengan harga Rp.10000. Ada lagi yang mau dipesan?
+        </template>
+    </category>
+    <!-- <category>
+        <pattern> ITU SAJA PESANANNYA </pattern>
+        <template> Baik kak, totalnya adalah 
+        </template>
+    </category> -->
+    <category>
+        <pattern>PESAN TEH MANIS</pattern>
+        <template>
+            Baik, kakak memesan Teh Manis dengan harga Rp3000. Ada lagi yang mau dipesan?
+        </template>
+    </category>
+
+    <category>
+        <pattern>PESAN ES TEH</pattern>
+        <template>
+            Baik, kakak memesan Teh Manis dengan harga Rp3000. Ada lagi yang mau dipesan?
+        </template>
+    </category>
+
+    <category>
+        <pattern>PESAN TEH TAWAR</pattern>
+        <template>
+            Baik, kakak memesan Teh Tawar dengan harga Rp1000. Ada lagi yang mau dipesan?
+        </template>
+    </category>
+
+    <category>
+        <pattern>PESAN ES JERUK</pattern>
+        <template>
+            Baik, kakak memesan es Jeruk dengan harga Rp3000. Ada lagi yang mau dipesan?
+        </template>
+    </category>
+
+    <category>
+        <pattern>PESAN MILO</pattern>
+        <template>
+            Baik, kakak memesan Milo dengan harga Rp4000. Ada lagi yang mau dipesan?
+        </template>
+    </category>
+
+    <category>
+        <pattern>PESAN HILO PANAS</pattern>
+        <template>
+            Baik, kakak memesan Hilo panas dengan harga Rp4000. Ada lagi yang mau dipesan?
+        </template>
+    </category>
+    <category>
+        <pattern>PESAN ES HILO</pattern>
+        <template>
+            Baik, kakak memesan es Hilo dengan harga Rp4000. Ada lagi yang mau dipesan?
+        </template>
+    </category>
+
+    <category>
+        <pattern>PESAN ES NUTRISARI</pattern>
+        <template>
+            Baik, kakak memesan ES Nutrisari dengan harga Rp4000. Ada lagi yang mau dipesan?
+        </template>
+    </category>
+
+    <category>
+        <pattern>PESAN COFFEEMIX</pattern>
+        <template>
+            Baik, kakak memesan Coffeemix dengan harga Rp4000. Ada lagi yang mau dipesan?
+        </template>
+    </category>
+
+    <category>
+        <pattern>PESAN GOODDAY</pattern>
+        <template>
+            Baik, kakak memesan Goodday dengan harga Rp4000. Ada lagi yang mau dipesan?
+        </template>
+    </category>
+
+    <category>
+        <pattern>PESAN KOPI HITAM</pattern>
+        <template>
+            Baik, kakak memesan Kopi Hitam dengan harga Rp3000. Ada lagi yang mau dipesan?
+        </template>
+    </category>
+
+    <category>
+        <pattern>PESAN AIR ES</pattern>
+        <template>
+            Baik, kakak memesan Air Es dengan harga Rp1000. Ada lagi yang mau dipesan?
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>* PESAN TEH MANIS</pattern>
+        <template>
+            Baik, kakak memesan Teh Manis dengan harga Rp3000. Ada lagi yang mau dipesan?
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PESAN ES TEH</pattern>
+        <template>
+            Baik, kakak memesan Es Teh dengan harga Rp3000. Ada lagi yang mau dipesan?
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PESAN TEH TAWAR</pattern>
+        <template>
+            Baik, kakak memesan Teh Tawar dengan harga Rp1000. Ada lagi yang mau dipesan?
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PESAN ES JERUK</pattern>
+        <template>
+            Baik, kakak memesan es Jeruk dengan harga Rp3000. Ada lagi yang mau dipesan?
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PESAN JERUK PANAS</pattern>
+        <template>
+            Baik, kakak memesan Jeruk panas dengan harga Rp3000. Ada lagi yang mau dipesan?
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PESAN MILO PANAs</pattern>
+        <template>
+            Baik, kakak memesan Milo panas dengan harga Rp4000. Ada lagi yang mau dipesan?
+        </template>
+    </category>
+    <category>
+        <pattern>* PESAN ES MILO</pattern>
+        <template>
+            Baik, kakak memesan es Milo panas dengan harga Rp4000. Ada lagi yang mau dipesan?
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PESAN HILO</pattern>
+        <template>
+            Baik, kakak memesan Hilo dengan harga Rp4000. Ada lagi yang mau dipesan?
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PESAN NUTRISARI PANAS</pattern>
+        <template>
+            Baik, kakak memesan Nutrisari panas dengan harga Rp4000. Ada lagi yang mau dipesan?
+        </template>
+    </category>
+    <category>
+        <pattern>* PESAN ES NUTRISARI</pattern>
+        <template>
+            Baik, kakak memesan es Nutrisari panas dengan harga Rp4000. Ada lagi yang mau dipesan?
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PESAN COFFEEMIX PANAS</pattern>
+        <template>
+            Baik, kakak memesan Coffeemix panas dengan harga Rp4000. Ada lagi yang mau dipesan?
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PESAN ES COFFEEMIX</pattern>
+        <template>
+            Baik, kakak memesan es Coffeemix dengan harga Rp4000. Ada lagi yang mau dipesan?
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PESAN GOODDAY</pattern>
+        <template>
+            Baik, kakak memesan Goodday dengan harga Rp4000. Ada lagi yang mau dipesan?
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PESAN KOPI HITAM</pattern>
+        <template>
+            Baik, kakak memesan Kopi Hitam dengan harga Rp3000. Ada lagi yang mau dipesan?
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PESAN AIR ES</pattern>
+        <template>
+            Baik, kakak memesan Air Es dengan harga Rp1000. Ada lagi yang mau dipesan?
+        </template>
+    </category>
+
+    <category>
+        <pattern>TERIMAKASIH</pattern>
+        <template>
+            Baik kak, terima kasih kembali
+        </template>
+    </category>
+    <category>
+        <pattern>TERIMA KASIH</pattern>
+        <template>
+            Baik kak, terima kasih kembali
+        </template>
+    </category>
+    <category>
+        <pattern>* TERIMA KASIH</pattern>
+        <template>
+            Baik kak, terima kasih kembali
+        </template>
+    </category>
+    <category>
+        <pattern>TERIMA KASIH *</pattern>
+        <template>
+            Baik kak, terima kasih kembali
+        </template>
+    </category>
+    <category>
+        <pattern>* TERIMA KASIH *</pattern>
+        <template>
+            Baik kak, terima kasih kembali
+        </template>
+    </category>
+    <category>
+        <pattern>THANK YOU</pattern>
+        <template>
+            Baik kak, terima kasih kembali
+        </template>
+    </category>
+    <category>
+        <pattern>* THANK YOU</pattern>
+        <template>
+            You're welcome
+        </template>
+    </category>
+</aiml>

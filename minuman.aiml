@@ -1,4 +1,3 @@
-<?xml version = "1.0" encoding = "ISO-8859-1"?>
 <aiml version="2" encoding="ISO-8859-1">
     <!-- minuman.aiml -->
 
@@ -9,37 +8,31 @@
                 Teh Manis dengan harga Rp3000
                 Teh Tawar dengan harga Rp1000
                 Jeruk dengan harga Rp3000
-                Susu Milo dengan harga Rp4000
-                Susu Hilo dengan harga Rp4000
+                Milo dengan harga Rp4000
+                Hilo dengan harga Rp4000
                 Nutrisari dengan harga Rp4000
-                Kopi Coffeemix dengan harga Rp4000
-                Kopi GoodDay dengan harga Rp4000
+                Coffeemix dengan harga Rp4000
+                GoodDay dengan harga Rp4000
                 Kopi Hitam dengan harga Rp3000
                 Air Es dengan harga Rp1000
         </template>
     </category>
     <category>
-        <pattern>* MINUMAN</pattern>
+        <pattern>* MENU MINUMAN</pattern>
         <template>
             <srai> MENU MINUMAN </srai>
         </template>
     </category>
     <category>
-        <pattern>MINUMAN *</pattern>
+        <pattern>MENU MINUMAN *</pattern>
         <template>
-            <srai>MENU MINUMAN</srai>
+            <srai> MENU MINUMAN </srai>
         </template>
     </category>
     <category>
-        <pattern>* MINUMAN *</pattern>
+        <pattern>* MENU MINUMAN *</pattern>
         <template>
-            <srai>MENU MINUMAN</srai>
-        </template>
-    </category>
-    <category>
-        <pattern>* MINUM *</pattern>
-        <template>
-            <srai>MENU MINUMAN</srai>
+            <srai> MENU MINUMAN </srai>
         </template>
     </category>
 
@@ -47,7 +40,7 @@
         <pattern>SAYA MAU MINUM *</pattern> 
         <template> 
             <think> 
-                <set name="minum"><star /></set> 
+                <set name="minum"><star/></set> 
             </think> 
             <condition name="minum"> 
                 <li value="teh">Kami menyediakan menu <star/>:
@@ -58,12 +51,12 @@
                     Jeruk dengan harga Rp3000
                 </li> 
                 <li value="susu">Kami menyediakan menu <star/>:
-                    Susu Milo dengan harga Rp4000
-                    Susu Hilo dengan harga Rp4000
+                    Milo dengan harga Rp4000
+                    Hilo dengan harga Rp4000
                 </li> 
                 <li value="kopi">Kami menyediakan menu <star/>:
-                    Kopi Coffeemix dengan harga Rp4000
-                    Kopi GoodDay dengan harga Rp4000
+                    Coffeemix dengan harga Rp4000
+                    GoodDay dengan harga Rp4000
                     Kopi Hitam dengan harga Rp3000
                 </li> 
                 <li>Kami menyediakan menu lain:
@@ -73,5 +66,117 @@
             </condition> 
         </template> 
     </category>
+    <category> 
+        <pattern>APAKAH ADA MINUMAN *</pattern> 
+        <template> 
+            <srai>SAYA MAU MINUM <star/></srai>
+        </template> 
+    </category>
+
+    <!-- per menu -->
+    <category>
+        <pattern>TEH MANIS</pattern>
+        <template>
+            Kami menyediakan Teh Manis dengan harga Rp3000, kak.
+        </template>
+    </category>
+
+    <category>
+        <pattern>TEH TAWAR</pattern>
+        <template>
+            Kami menyediakan Teh Tawar dengan harga Rp1000, kak.
+        </template>
+    </category>
+
+    <category>
+        <pattern>JERUK</pattern>
+        <template>
+            Kami menyediakan Jeruk dengan harga Rp3000, kak.
+        </template>
+    </category>
+
+    <category>
+        <pattern>MILO</pattern>
+        <template>
+            Kami menyediakan Milo dengan harga Rp4000, kak.
+        </template>
+    </category>
+
+    <category>
+        <pattern>HILO</pattern>
+        <template>
+            Kami menyediakan Hilo dengan harga Rp4000, kak.
+        </template>
+    </category>
+
+    <category>
+        <pattern>NUTRISARI</pattern>
+        <template>
+            Kami menyediakan Nutrisari dengan harga Rp4000, kak.
+        </template>
+    </category>
+
+    <category>
+        <pattern>COFFEEMIX</pattern>
+        <template>
+            Kami menyediakan CofFeemix dengan harga Rp4000, kak.
+        </template>
+    </category>
+
+    <category>
+        <pattern>GOODDAY</pattern>
+        <template>
+            Kami menyediakan Goodday dengan harga Rp4000, kak.
+        </template>
+    </category>
+
+    <category>
+        <pattern>KOPI HITAM</pattern>
+        <template>
+            Kami menyediakan Kopi Hitam dengan harga Rp3000, kak.
+        </template>
+    </category>
+
+    <category>
+        <pattern>AIR ES</pattern>
+        <template>
+            Kami menyediakan Air Es dengan harga Rp1000, kak.
+        </template>
+    </category>
+
+    <!-- harga -->
+    <category> 
+        <pattern>HARGA *</pattern> 
+        <template> 
+            <think> 
+                <set name="minum"><star/></set> 
+            </think> 
+            <condition name="minum"> 
+                <li value="teh manis">Teh Manis harganya Rp3000, kak.</li>
+                <li value="teh tawar">Teh Tawar harganya Rp1000, kak.</li>
+                <li value="jeruk">Jeruk harganya Rp3000, kak.</li>
+                <li value="milo">Milo harganya Rp4000, kak.</li>
+                <li value="hilo">Hilo harganya Rp4000, kak.</li>
+                <li value="nutrisari">Nutrisari harganya Rp4000, kak.</li>
+                <li value="coffeemix">Coffeemix harganya Rp4000, kak.</li>
+                <li value="goodday">Goodday harganya Rp4000, kak.</li>
+                <li value="kopi hitam">Kopi Hitam harganya Rp3000, kak.</li>
+                <li value="air es">Air Es harganya Rp1000, kak.</li>
+            </condition> 
+        </template> 
+    </category>
+    <category>
+        <pattern>BERAPA HARGA *</pattern>
+        <template>
+            <srai>HARGA <star/></srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HARGA *</pattern>
+        <template>
+            <srai>HARGA <star index="2" /></srai>
+        </template>
+    </category>
+
 
 </aiml>
